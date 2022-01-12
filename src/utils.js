@@ -1,0 +1,38 @@
+const ligneName = ["a", "b", "c", "d", "e", "f", "g", "h"];
+const coloneName = [8, 7, 6, 5, 4, 3, 2, 1];
+const allPiece = [
+  ["a", 1, "tour", "Blanc"],
+  ["b", 1, "cavalier", "Blanc"],
+  ["c", 1, "fou", "Blanc"],
+  ["d", 1, "dame", "Blanc"],
+  ["e", 1, "roi", "Blanc"],
+  ["f", 1, "fou", "Blanc"],
+  ["g", 1, "cavalier", "Blanc"],
+  ["h", 1, "tour", "Blanc"],
+  ["a", 2, "pion", "Blanc"],
+  ["b", 2, "pion", "Blanc"],
+  ["c", 2, "pion", "Blanc"],
+  ["d", 2, "pion", "Blanc"],
+  ["e", 2, "pion", "Blanc"],
+  ["f", 2, "pion", "Blanc"],
+  ["g", 2, "pion", "Blanc"],
+  ["h", 2, "pion", "Blanc"],
+  ["a", 8, "tour", "Noir"],
+  ["b", 8, "cavalier", "Noir"],
+  ["c", 8, "fou", "Noir"],
+  ["d", 8, "dame", "Noir"],
+  ["e", 8, "roi", "Noir"],
+  ["f", 8, "fou", "Noir"],
+  ["g", 8, "cavalier", "Noir"],
+  ["h", 8, "tour", "Noir"],
+  ["a", 7, "pion", "Noir"],
+  ["b", 7, "pion", "Noir"],
+  ["c", 7, "pion", "Noir"],
+  ["d", 7, "pion", "Noir"],
+  ["e", 7, "pion", "Noir"],
+  ["f", 7, "pion", "Noir"],
+  ["g", 7, "pion", "Noir"],
+  ["h", 7, "pion", "Noir"],
+];
+
+export { ligneName, coloneName, allPiece };
