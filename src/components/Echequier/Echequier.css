@@ -1,0 +1,59 @@
+#echequier {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+  width: 800px;
+  height: 800px;
+}
+
+#echequier .case {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  place-content: center;
+}
+
+#echequier .case-noir {
+  background: #7e7e7e;
+}
+
+#echequier .case-blanche {
+  background: #fff;
+}
+
+.case .piece-img {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+}
+
+.case .piece-img:hover {
+  cursor: grab;
+}
+.case .piece-img:active {
+  cursor: grabbing;
+}
+
+#modal-promotion {
+  height: 300px;
+  width: 800px;
+  top: calc(50% - 150px);
+  left: calc(50% - 400px);
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#modal-promotion img {
+  height: 120px;
+}
+
+#modal-promotion img:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10%;
+}

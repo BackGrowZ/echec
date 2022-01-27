@@ -1,9 +1,10 @@
-import Plateau from "./container/Plateau";
+import Echequier from "./components/Echequier/Echiquier";
+import "./index.css";
 
 const App = () => {
   return (
-    <div className="App">
-      <Plateau />
+    <div id="app">
+      <Echequier />
     </div>
   );
 };
